@@ -1,0 +1,31 @@
+Muses -< FashionShowMuse >- FashionShow >- Designers
+
+User: 
+- Create Fashion Show
+- Read Fashion Show Details
+- Update muses in a Fashion Show
+- Delete Fashion Show
+
+
+Muse: 
+- Has Many FashionShows through FashionShowMuse
+- Has Many Designers through FashionShows
+    - name
+    - height
+
+FashionShowMuse: 
+- Belongs to Muse
+- Belongs to FashionShow
+    - FashionShow id
+    - Muse id
+
+Fashion Show: 
+- Has Many Muses through FashionShowMuse 
+- Belongs to Designers
+    - Designer id
+    - Seasons
+
+Designer: 
+- Has many FashionShows
+- Has many Muses through FashionShows
+    - name
