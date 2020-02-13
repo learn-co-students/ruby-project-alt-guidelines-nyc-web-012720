@@ -1,0 +1,53 @@
+Top Options:
+    1. Create create a fashion show
+    2. Update muses in a fasion show
+    3. Read information about fashion shows
+    4. Cancel a fashion show (Delete)
+    5. Exit
+
+** Always have the option to go to main menu
+** Always have the option to exit out of the app
+
+* CREATE (Allows the user to crate a fashion show event)
+    Fashion Show
+        - FashionShow.create(designer_id:, season:)
+            - Shows a list of Designers and their id's to select from
+            - Shows a list of seasons to select from
+            - Shows a list of Muses and their id's and selects from 
+                - Select up to 6 muses
+
+* UPDATE: (Allows the user to add or remove muses from a fashion show)
+    Fashion Show
+        - Give a list of season to select from
+        - Give a list of Fashion Shows in that season
+        - Ask what needs to be updated (muse, fashion show)
+        - Allow user to update and save
+
+
+* READ: (Allows the user to see a list of designers, fashion shows, muses )
+    Muse
+        - Select Model
+        - See Model info
+            - name
+            - height
+                - list of fashion show seasons
+                - list of fashion shows in that season
+    Fashion Show
+        - Select Season
+        - Shows a list of Fashion Shows of that season
+
+    Designer
+        - Select Designer
+        - See designer info
+            - name
+                - list of fashion show seasons
+                - list of muses in that season
+
+* DELETE: (Allows the user to cancel a fashion show)
+    Fashion Show
+        - Give a list of seasons to select from
+        - Give a list of Fashion Shows in that season
+        - Ask if the Muse or Designer cancelled
+            - If Designer, cancel entire fashion show
+            - If Muse, give a list of muses in that fashion show
+* EXIT 
