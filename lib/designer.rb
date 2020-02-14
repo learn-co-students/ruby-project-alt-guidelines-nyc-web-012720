@@ -32,6 +32,9 @@ class Designer < ActiveRecord::Base
     end
     #=> returns an ARRAY of Desinger name STRINGS
 
+    
+
+
     # binding.pry
 
 
